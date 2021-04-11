@@ -1,0 +1,74 @@
+ body{
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     /* background-color: rgb(182, 28, 28); */
+ }
+ #Wrapper{
+     width: 1000px;
+     height: 600px;
+     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(img/sumudu-mohottige-gneHEtwJl4o-unsplash.jpg);
+     background-size: cover;  
+     margin: 20px auto;
+ }
+ #Calculator{
+     width: 320px;
+     height: 520px;
+     background-color:grey;
+     margin: 0 auto;
+     border-radius: 6px;
+     top: 20px;
+     position: relative;
+ }
+ #Answer{
+     height: 120px;
+ }
+ #keypad{
+     height: 390px;
+ }
+ #History{
+     text-align:right;
+     height: 20px;
+     margin: 0 20px;
+     padding-top: 20px;
+     font-size: 15px;
+     color: white;
+ }
+ #output{
+     text-align: right;
+     height: 60px;
+     margin: 10px 20px;
+     font-size: 30px;
+     color:black;
+ } 
+ .operator, .number, .empty{
+     width: 50px;
+     height: 50px;
+     margin: 15px;
+     float: left;
+     border-radius: 50%;
+     font-size: 15px;
+     border-width: 0;
+     font-weight: bold;
+ }
+ .number, .operator{
+     cursor: pointer;
+ }
+ button:nth-child(4){
+     font-size: 20px;
+     background-color: blue;
+ }
+ button:nth-child(8){
+    font-size: 20px;
+    background-color:gold;
+}
+button:nth-child(12){
+    font-size: 20px;
+    background-color: fuchsia;
+}
+button:nth-child(16){
+    font-size: 20px;
+    background-color:indigo;
+}
+button:nth-child(20){
+    font-size: 20px;
+    background-color:green;
+}
